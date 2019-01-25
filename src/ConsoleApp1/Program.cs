@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ClassLibrary1;
+﻿using ClassLibrary1;
+using Ionic.Zlib;
 
 namespace ConsoleApp1
 {
@@ -11,7 +7,7 @@ namespace ConsoleApp1
 	{
 		static void Main(string[] args)
 		{
-			var stream = new Class1().Stream;
+			GZipStream stream = new Class1().Stream;
 		}
 	}
 }
